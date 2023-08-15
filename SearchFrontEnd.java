@@ -1,9 +1,3 @@
-// --== SearchFrontEnd.java ==--
-// Name: Jake Murawski
-// Email: jmurawski@wisc.edu
-// Team: UA
-// TA: Cameron
-// Lecturer: Gary Dahl
 
 import java.util.Scanner;
 import java.util.LinkedList;

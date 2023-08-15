@@ -1,9 +1,4 @@
-// --== NBAPlayerSearchTests.java ==--
-// Name: Isaac Odedoyin, Jake Murawski, Sarah Nelson, Joseph Neimon
-// Email: oodedoyin@wisc.edu, jmurawski@wisc.edu, sgnelson@wisc.edu, neimon@wisc.edu
-// Team: AU
-// TA: Cameron
-// Lecturer: Gary Dahl
+// Name: Isaac Odedoyin
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,14 +17,13 @@ import org.junit.platform.console.ConsoleLauncher;
  */
 public class NBAPlayerSearchTests{
 	
-	//FRONT END DEVELOPER TESTS
+	//FRONT END TESTS
 
 	/**
 	 * This first test makes sure that the mostPoints, mostAssists, and mostRebounds all return the correct
 	 * String to the application. We start by testing the case with only one player in the system, and then
 	 * try it again with multiple players in the System.
 	 *
-	 * @author Jake Murawski
 	 */
 	@Test
 	public void frontEndTest_mostValues() {
@@ -82,7 +76,6 @@ public class NBAPlayerSearchTests{
 	 * anything besides ints and doubles will scan the next line and ask the user to provide a double. ints 
 	 * will be converted to doubles. Lastly when entering name, the application will trim it
 	 *
-	 * @author Jake Murawski
 	 */
 	@Test	
 	public void frontEndTest_scannerMethods() {
@@ -124,7 +117,6 @@ public class NBAPlayerSearchTests{
 	 * on an application with multiple players, to make sure we can correctly return all players containing
 	 * the phrase. 
          *
-         * @author Jake Murawski
          */
 	@Test
 	public void frontEndTest_playerSearch() {
@@ -169,7 +161,6 @@ public class NBAPlayerSearchTests{
 	 *  This test method confirms if the getAssist works correctly when loading csv file correctly.
 	 *  The  test comparethe first line of code with correct number of assits for player.     
 	 *  
-	 *  @author Sarah Nelson (Data Wrangler)
 	 */
 	@Test
 	public void dataWranglerTest_TestgetAssist(){
@@ -187,7 +178,6 @@ public class NBAPlayerSearchTests{
          *  This test method confirms if the getPoints works correctly when loading csv file correctly.
          *  The  test compare the 10th line of code with correct number of assits for player.
          *
-         *  @author Sarah Nelson (Data Wrangler)
          */
         @Test
 	public void dataWranglerTest_TestgetPoints(){
@@ -205,7 +195,6 @@ public class NBAPlayerSearchTests{
          *  This test method confirms if the getName works correctly when loading csv file correctly.
          *  The  test comparethe first line of code with correct number of assits for player.  
 	 *             
-         *  @author Sarah Nelson (Data Wrangler)
          */
         @Test
 	public void dataWranglerTest_TestgetName(){
@@ -223,7 +212,6 @@ public class NBAPlayerSearchTests{
          *  This test method confirms if the getAssist works correctly when loading csv file correctly.
          *  The  test comparethe first line of code with correct number of assits for player.
          *
-         *  @author Sarah Nelson (Data Wrangler)
          */
       	@Test
 	public void dataWranglerTest_TestgetRebounds(){
@@ -236,7 +224,7 @@ public class NBAPlayerSearchTests{
        		}
    	}
 
-    //BACK END DEVELOPER TESTS
+    //BACK END TESTS
 
     /**
      * This test method confirms if the addPlayer function works correctly with the Red Black tree.
@@ -244,7 +232,6 @@ public class NBAPlayerSearchTests{
      * The last two are switched to add a different element of complexity. If the tree is made as
      * intended, addPlayer works correctly and the test will be asserted as true.
      *
-     * @author Joseph Neimon (Back End Developer)
      */
    @Test
       public void backendDeveloper_TestaddPlayer() {
@@ -286,7 +273,6 @@ public class NBAPlayerSearchTests{
      * is in the presence of a tie, the original most player will retain their title. The tests
      * passes when it successfully returns the correct most players from a generated RBT.
      *
-     * @author Joseph Neimon (Back End Developer)
      */
 
     @Test
@@ -334,7 +320,6 @@ public class NBAPlayerSearchTests{
      * successfully navigates through the test red black tree to find the correct number of players
      * name containing the selected string, and if each element contains that same string.
      *
-     * @author Joseph Neimon (Back End Developer)
      */
     @Test
    void backendDeveloper_TestfindPlayers() {
@@ -364,13 +349,12 @@ public class NBAPlayerSearchTests{
         }
     }
 
-//		INTEGRATION MANAGER ADDITIONAL TESTS
+//		 ADDITIONAL TESTS
 
 		
 	 /**
          *INTEGRATION MANAGER TESTS
          *This method tests the methods in the SearchFrontEnd.java file
-         *author: Isaac Odedoyin
          */
         @Test
         void IntegrationTestFrontEnd(){
@@ -395,11 +379,9 @@ public class NBAPlayerSearchTests{
 
     
 	/**
-	 * INTEGRATION MANAGER TEST
 	 *This method tests various methods used in combination by the FrontEnd code and BackEnd code
 	 *It tests core feature of the app such as fnding all players with a common name,
 	 * find players with the higest stats in different catgeores and retrieving those stats
-	 *@author - Isaac Odedoyin
 	 *
 	 */
     	@Test
@@ -460,7 +442,7 @@ public class NBAPlayerSearchTests{
                                                                       
                                                                        
             
-		//test most points
+        	//test most points
             
             assertEquals("Austin Reaves",tester.getMostPoints().getName());
 	    //test most assists
@@ -489,9 +471,7 @@ public class NBAPlayerSearchTests{
     
 
 	/**
-	 *INTEGRATION MANAGER
 	 *This method tests the funtion of the loadfile method, making sure the csv file is read correctly
-	 *Author- Isaac Odedoyin
 	 */
 		@Test
 	void IntegrationTestDataWrangler(){
@@ -571,4 +551,3 @@ public class NBAPlayerSearchTests{
 
 
 }
-//ALL ROLES ADD TEST METHODS UNDER HERE (USING JUNIT)

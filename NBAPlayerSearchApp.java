@@ -1,10 +1,5 @@
-// --== CS400 File Header Information ==--
 // Name: Isaac Odedoyin
 // Email: oodedoyin@wisc.edu
-// Team: AU
-// TA: Cameron
-// Lecturer: Gary Dahl
-// Notes to Grader: None
 import java.util.List;
 import java.util.LinkedList;
 /**

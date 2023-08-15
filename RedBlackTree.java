@@ -1,10 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Joseph Neimon
-// Email: neimon@wisc.edu
-// Team: AU
-// TA: Cameron
-// Lecturer: Gary Dahl
-// Notes to Grader: None
 
 import java.util.Iterator;
 import java.util.LinkedList;

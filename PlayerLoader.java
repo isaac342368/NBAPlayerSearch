@@ -1,10 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Sarah Nelson
-// Email: sgnelson3@wisc.edu
-// Team: AU
-// TA: Cameron
-// Lecturer: Gary Dahl
-// Notes to Grader: Source: Last project
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;

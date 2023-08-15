@@ -1,10 +1,3 @@
-// --== CS400 File Header Information ==--
-// Name: Sarah Nelson
-// Email: sgnelson3@wisc.edu
-// Team: AU
-// TA: Cameron
-// Lecturer: Gary Dahl
-// Notes to Grader: Sources: last project
 interface NBAPlayersInterface {
     public String getName();
     public double getPoints();
