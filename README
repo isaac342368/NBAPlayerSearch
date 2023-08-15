@@ -1,12 +1,14 @@
+This is a console based java application
+
 This project uses a custom Red-Black Tree implementation to store and retrieve data about current NBA players.
 This app has many functionalitiies:
 Users can add new players to the database
 Users can check who is the leader in any statistical category
-Users can search current NBA players to views their stats
+Users can search current NBA players to view their stats
 Data is stored in csv file, so it is not always up to date
 
 This app is also capable of auto-complete, if you do not type in the full player name or cannot remember how to spell the name, the app will match what you have written to the closest NBA player name that you probably meant to type
-For example, "leb" will bring up result for LeBron James
+For example, "leb" will bring up result for LeBron James or any other player with a similar name
 
 
 To run this app, run make compile
